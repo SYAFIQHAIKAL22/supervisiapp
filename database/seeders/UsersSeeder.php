@@ -24,15 +24,7 @@ class UsersSeeder extends Seeder
             'email' => 'kurikulumsupervisor@abc.com',
             'password' => Hash::make('1101'),
         ]);
-        User::create([
-            'name' => 'Kepsek',
-            'nip' => '1102',
-            'alamat' => 'Bogor',
-            'role' => 'kepsek',
-            'supervisor' => 1,
-            'email' => 'kepsek@abc.com',
-            'password' => Hash::make('1102'),
-        ]);
+
 
     }
 }
